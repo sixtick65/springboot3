@@ -10,7 +10,9 @@
 
 ### 스프링부트3 프로젝트 설정하기
 - src/build.gradle 을 연다
-- ```
+-
+
+```
 plugins {
     id 'java'
     id 'org.springframework.boot' version '3.2.0'  // 추가
