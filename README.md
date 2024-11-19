@@ -38,3 +38,40 @@ test {
     useJUnitPlatform()
 }
 ```
+- 고래 아이콘을 눌러서 새로고침(동기화) 를 해준다.
+
+### 서버 구동하기
+- src/main/java/패키지에 진입점(클래스)를 만들어준다
+
+```
+package me.shinsunyoung.springbootdeveloper;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootDeveloperApplication {
+    public static void main(String[] args) { // 부트 앱 진입점
+        SpringApplication.run(SpringBootDeveloperApplication.class, args);
+    }
+}
+```
+
+- resources/static/index.html 파일을 생성한다 (html5 치고 자동완성하면 html 기본 형태가 작성됨)
+- 위에 작성한 클래스를 실행하고(서버켬) localhost:8080 로 접속해본다
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
